@@ -34,7 +34,6 @@ VCFsummary(snps)
 snps_thin <- Filter(snps, filterOptions(thin=300)) 
 VCFsummary(snps_thin) 
 
-
 ########## Subset by genetic clusters/populations ----------------------------------
 ## Create dummy population ID and insert into VCF meta data
 snps_thin@meta$Pop <- rep(1:3, each = 10, length.out=nrow(snps_thin@meta))
