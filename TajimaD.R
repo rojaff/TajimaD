@@ -60,11 +60,11 @@ tajd_p1 <- TajimaD(snps_p1, nboot=10000, maf=0.03, use_vcftools_D=FALSE)
 tajd_p1$results
 str(tajd_p1$simulations)
 
-tajd_2 <- TajimaD(snps_p2, nboot=10000, maf=0.03, use_vcftools_D=FALSE)
+tajd_p2 <- TajimaD(snps_p2, nboot=10000, maf=0.03, use_vcftools_D=FALSE)
 tajd_p2$results
 str(tajd_p2$simulations)
 
-tajd_3 <- TajimaD(snps_p3, nboot=10000, maf=0.03, use_vcftools_D=FALSE)
+tajd_p3 <- TajimaD(snps_p3, nboot=10000, maf=0.03, use_vcftools_D=FALSE)
 tajd_p3$results
 str(tajd_p3$simulations)
 
